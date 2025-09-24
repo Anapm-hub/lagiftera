@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Combo Sheridan’s | La Giftera</title>
+  <meta name="description" content="Detalle del Combo Sheridan’s: licor Sheridan’s, chocolates y accesorios en box premium. Envíos a todo el país." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img src="../img/logo.png" alt="La Giftera" /></a>
+    <nav class="nav">
+      <a href="../index.html#combos">Combos</a>
+      <a href="../index.html#productos">Productos</a>
+      <a href="../index.html#como-funciona">Cómo funciona</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contacto" class="btn btn--sm">Contacto</a>
+    </nav>
+    <button class="burger" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <a href="../index.html#combos" class="btn btn--ghost" style="margin-bottom:16px;">← Volver a combos</a>
+
+    <div class="grid" style="grid-template-columns: 1.2fr 1fr;">
+      <div>
+        <img src="../img/combo-jack.jpg" alt="Combo Sheridan’s" />
+      </div>
+      <div>
+        <h1 style="margin-top:0">Combo Sheridan’s</h1>
+        <p class="section__sub">Licor + chocolates + 4 shots en box premium</p>
+        <p>Incluye: Licor Sheridan’s 700ml, Milka, caramelos, 4 vasitos de shot, papel de seda y tarjeta personalizada. Armado premium listo para regalar.</p>
+        <p class="price" style="font-size:1.6rem;margin:14px 0;">$ 89.900</p>
+
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn" target="_blank"
+             href="https://wa.me/5493517669748?text=Hola%20La%20Giftera%2C%20quiero%20comprar%20el%20Combo%20Sheridan%E2%80%99s.">
+            Comprar por WhatsApp
+          </a>
+          <a class="btn btn--ghost" target="_blank"
+             href="https://wa.me/5493517669748?text=Hola%20La%20Giftera%2C%20quiero%20personalizar%20el%20Combo%20Sheridan%E2%80%99s.">
+            Personalizar
+          </a>
+        </div>
+
+        <ul style="margin-top:18px;color:#555;">
+          <li>Envíos a todo el país. Pick up en Córdoba capital.</li>
+          <li>Medios de pago: transferencia y Mercado Pago.</li>
+          <li>Tiempo de preparación: 24–48 h hábiles.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <img class="footer__logo" src="../img/favicon.png" alt="La Giftera" />
+      <p>Regalos y combos premium. Hechos con amor ♥</p>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a target="_blank" href="https://wa.me/5493517669748">WhatsApp</a></li>
+        <li><a target="_blank" href="https://instagram.com/la.giftera">Instagram</a></li>
+        <li><a target="_blank" href="mailto:hola@lagiftera.com">hola@lagiftera.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Secciones</h4>
+      <ul>
+        <li><a href="../index.html#combos">Combos</a></li>
+        <li><a href="../index.html#productos">Productos</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy">© 2025 La Giftera. Todos los derechos reservados.</div>
+</footer>
+
+<a class="wafloat" target="_blank"
+   href="https://wa.me/5493517669748?text=Hola%20La%20Giftera%2C%20vengo%20de%20la%20web.">💬</a>
+
+<script>
+  const burger=document.querySelector('.burger');
+  const nav=document.querySelector('.nav');
+  burger?.addEventListener('click',()=>nav.classList.toggle('open'));
+</script>
+</body>
+</html>

@@ -151,4 +151,15 @@ footer, .nav, .card__body, .section { word-break: break-word; }
   }
 }
 
+.card--clickable { position: relative; cursor: pointer; }
+.card--clickable:hover { box-shadow: 0 6px 22px rgba(0,0,0,.07); transform: translateY(-1px); transition: .2s; }
 
+.stretched{
+  position: absolute; inset: 0; z-index: 1;
+  /* accesibilidad: que sea “focusable” */
+  outline: none;
+}
+.stretched:focus { outline: 3px solid rgba(176,24,30,.45); outline-offset: 3px; }
+
+/* Asegura que el botón de WhatsApp quede por encima del overlay y sea clickeable */
+.card__bottom .btn { position: relative; z-index: 2; }
